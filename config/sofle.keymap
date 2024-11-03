@@ -45,15 +45,6 @@
         bindings = <&kp LALT>, <&kp LALT>, <&kp RIGHT_ALT>;
     };
 
-    scroll_encoder_horizon: scroll_encoder_horizon {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCROLL_LEFT>, <&msc SCROLL_RIGHT>;
-
-        tap-ms = <30>;
-        label = "SCROLL_ENCODER_HORIZON";
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -80,7 +71,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder_horizon>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
