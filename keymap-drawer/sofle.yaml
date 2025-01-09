@@ -62,8 +62,8 @@ layers:
   - {t: '2', h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '-', s: _}
   - {t: '=', s: +}
+  - {t: '-', s: _}
   - layer1
   layer1:
   - F12
@@ -79,45 +79,45 @@ layers:
   - F9
   - F10
   - F11
-  - Alt+ F12
-  - Alt+ F1
-  - Alt+ F2
-  - Alt+ F3
-  - Alt+ F4
-  - Alt+ F5
+  - Alt+F12
+  - Alt+F1
+  - Alt+F2
+  - Alt+F3
+  - Alt+F4
+  - Alt+F5
   - PgDn
-  - Alt+ F6
-  - Alt+ F7
-  - Alt+ F8
-  - Alt+ F9
-  - Alt+ F10
-  - Alt+ F11
-  - Ctl+ F12
-  - Ctl+ F1
-  - Ctl+ F2
-  - Ctl+ F3
-  - Ctl+ F4
-  - Ctl+ F5
+  - Alt+F6
+  - Alt+F7
+  - Alt+F8
+  - Alt+F9
+  - Alt+F10
+  - Alt+F11
+  - Ctl+F12
+  - Ctl+F1
+  - Ctl+F2
+  - Ctl+F3
+  - Ctl+F4
+  - Ctl+F5
   - HOME
-  - Ctl+ F6
-  - Ctl+ F7
-  - Ctl+ F8
-  - Ctl+ F9
-  - Ctl+ F10
-  - Ctl+ F11
-  - Sft+ F12
-  - Sft+ F1
-  - Sft+ F2
-  - Sft+ F3
-  - Sft+ F4
-  - Sft+ F5
+  - Ctl+F6
+  - Ctl+F7
+  - Ctl+F8
+  - Ctl+F9
+  - Ctl+F10
+  - Ctl+F11
+  - Sft+F12
+  - Sft+F1
+  - Sft+F2
+  - Sft+F3
+  - Sft+F4
+  - Sft+F5
   - END
-  - Sft+ F6
-  - Sft+ F7
-  - Sft+ F8
-  - Sft+ F9
-  - Sft+ F10
-  - Sft+ F11
+  - Sft+F6
+  - Sft+F7
+  - Sft+F8
+  - Sft+F9
+  - Sft+F10
+  - Sft+F11
   - {t: LAYER0, h: toggle}
   - {t: LAYER0, h: toggle, type: held}
   - $$mdi:alpha-w-box$$
@@ -162,7 +162,7 @@ layers:
   - OUT BLE
   - RGB BRI
   - RGB BRD
-  - Ctl+ INS
+  - Ctl+INS
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '&mkp MB5'
   - KP 1
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ INS
+  - Sft+INS
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:alpha-w-box$$
   - KP SLASH
@@ -190,7 +190,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - {t: LAYER0, h: toggle}
-  - Sft+ $$mdi:backspace-reverse-outline$$
+  - Sft+$$mdi:backspace-reverse-outline$$
   - '&mkp MB2'
   - KP MINUS
   - KP PLUS
