@@ -76,10 +76,10 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_RIGHT_PARENTHESIS
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PRINTSCREEN    &mmv MOVE_DOWN   &mkp MB4     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL     &kp KP_LEFT_PARENTHESIS
-&trans           &out OUT_USB     &out OUT_BLE     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp LC(INS)        &mmv MOVE_LEFT   &mkp MB5     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp BACKSPACE
-&kp LEFT_SHIFT   &sys_reset       &trans           &bootloader      &trans           &kp LS(INS)        &mmv MOVE_RIGHT  &caps_word   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_DOT       &bootloader      &kp RSHIFT
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp PAGE_UP     &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp KP_RIGHT_PARENTHESIS
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PRINTSCREEN    &kp PAGE_DOWN   &mkp MB4     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_EQUAL     &kp KP_LEFT_PARENTHESIS
+&trans           &out OUT_USB     &out OUT_BLE     &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp LC(INS)        &kp HOME        &mkp MB5     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp BACKSPACE
+&kp LEFT_SHIFT   &sys_reset       &trans           &bootloader      &trans           &kp LS(INS)        &kp END         &caps_word   &kp KP_SLASH     &kp KP_MULTIPLY  &kp KP_DOT       &bootloader      &kp RSHIFT
 &to 0            &to 0            &trans           &trans           &mkp MB1         &mkp MB3           &to 0            &kp LS(DEL)  &mkp MB2         &kp KP_MINUS     &kp KP_PLUS      &to 0
             >;
 
