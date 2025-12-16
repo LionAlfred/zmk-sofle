@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
-  LAYER0:
+  layer0:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -59,7 +59,7 @@ layers:
   - '&tdalt'
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
-  - {t: '2', h: toggle}
+  - {t: layer2, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
@@ -118,19 +118,84 @@ layers:
   - Sft+F9
   - Sft+F10
   - Sft+F11
-  - {t: LAYER0, h: toggle}
-  - {t: LAYER0, h: toggle, type: held}
+  - {t: layer0, h: toggle}
+  - {t: layer0, h: toggle, type: held}
   - $$mdi:alpha-w-box$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER0, h: toggle}
+  - {t: layer0, h: toggle}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - {t: \, s: '|'}
-  - {t: LAYER0, h: toggle, type: held alternate}
-  '2':
+  - {t: layer0, h: toggle, type: held alternate}
+  layer2:
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - PgUp
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - Alt+F12
+  - Alt+F1
+  - Alt+F2
+  - Alt+F3
+  - Alt+F4
+  - Alt+F5
+  - PgDn
+  - Alt+F6
+  - Alt+F7
+  - Alt+F8
+  - Alt+F9
+  - Alt+F10
+  - Alt+F11
+  - Ctl+F12
+  - Ctl+F1
+  - Ctl+F2
+  - Ctl+F3
+  - Ctl+F4
+  - Ctl+F5
+  - HOME
+  - Ctl+F6
+  - Ctl+F7
+  - Ctl+F8
+  - Ctl+F9
+  - Ctl+F10
+  - Ctl+F11
+  - Sft+F12
+  - Sft+F1
+  - Sft+F2
+  - Sft+F3
+  - Sft+F4
+  - Sft+F5
+  - END
+  - Sft+F6
+  - Sft+F7
+  - Sft+F8
+  - Sft+F9
+  - Sft+F10
+  - Sft+F11
+  - {t: layer0, h: toggle}
+  - {t: layer0, h: toggle}
+  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: layer0, h: toggle}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
+  - {t: \, s: '|'}
+  - {t: layer0, h: toggle}
+  layer3:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -138,7 +203,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - PgUp
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LOCKING NUM
   - KP 7
   - KP 8
   - KP 9
@@ -183,15 +248,15 @@ layers:
   - KP DOT
   - $$mdi:progress-download$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: LAYER0, h: toggle}
-  - {t: LAYER0, h: toggle}
+  - {t: layer0, h: toggle}
+  - {t: layer0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
-  - {t: LAYER0, h: toggle}
+  - {t: layer0, h: toggle}
   - Sft+$$mdi:backspace-reverse-outline$$
   - '&mkp MB2'
   - KP MINUS
   - KP PLUS
-  - {t: LAYER0, h: toggle}
+  - {t: layer0, h: toggle}
